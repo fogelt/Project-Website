@@ -253,7 +253,7 @@ span{
 @media (max-width: 480px) and (orientation: portrait) {
     .home {
         flex-direction: column; /* Stack elements vertically */
-        padding: 10 10rem; /* Add padding to prevent content from touching edges */
+        padding: 5 5rem; /* Add padding to prevent content from touching edges */
         text-align: center; /* Center align text */
     }
 
