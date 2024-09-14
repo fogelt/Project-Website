@@ -208,7 +208,7 @@ span{
         width: 100%;
     }
 
-    .home-img img{
+    .home .home-img img{
         margin: 1rem auto; /* Center the image */
         margin-top: 10rem;
     }
@@ -241,7 +241,7 @@ span{
         margin: 1rem auto; /* Center the video */
         display: block; /* Ensure it's displayed as a block-level element */
     }
-    nav a{
+    .nav a{
         font-size: 1.3rem;
     }
 }
@@ -268,7 +268,6 @@ span{
     }
 
     .home .home-img {
-        width: 50%; /* Adjust image width for mobile screens */
         margin: 1.5rem auto; /* Center the image */
         margin-left: 0;
     }
