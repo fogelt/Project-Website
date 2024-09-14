@@ -226,7 +226,6 @@ span{
 
     /* Center the image */
     .home .home-img {
-        width: 70%; /* Reduce width for mobile screens */
         margin: 2rem auto; /* Center the image */
         margin-left: 0rem;
     }
@@ -240,7 +239,6 @@ span{
     .projects {
         flex-direction: column;
         margin: 3rem auto; /* Center the projects section */
-        padding: 0 2rem; /* Add padding to prevent content touching screen edges */
         width: 100%;
     }
 
