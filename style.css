@@ -199,84 +199,61 @@ span{
 
 /* For screens smaller than 700px (Mobile-Friendly) */
 @media (max-width: 700px) {
-    /* Stack home section contents vertically */
+    /* Stack home section contents vertically and center-align */
     .home {
         flex-direction: column;
-        margin: 5rem 2rem; /* Reduce margin for smaller screens */
+        margin: 5rem auto; /* Center the entire home section */
+        padding: 0 2rem; /* Add padding to prevent content touching screen edges */
+        width: 100%;
     }
 
-    /* Adjust text sizes for better readability */
+    /* Center-align text inside the home-content */
+    .home .home-content {
+        text-align: center;
+    }
+
     .home .home-content h1 {
-        font-size: 4rem; /* Reduce font size */
+        font-size: 4rem; /* Adjust size for better fit */
         line-height: 1.2;
     }
 
-    .home .home-content h3 {
-        font-size: 2.5rem;
-    }
-
     .home .home-content p {
-        font-size: 1.8rem; /* Smaller paragraph text */
-        margin-right: 0; /* Ensure no extra margin */
-        text-align: center; /* Center text for better look on small screens */
+        font-size: 1.8rem; /* Smaller text size for mobile */
+        margin: 1rem auto; /* Center paragraph */
+        width: 100%;
+        padding: 0 1.5rem; /* Add padding to the text to avoid touching screen edges */
     }
 
-    /* Adjust the image size */
+    /* Center the image */
     .home .home-img {
-        width: 50%; /* Reduce width to fit mobile screens */
-        margin-top: 2rem; /* Reduce top margin */
-        margin-left: 0; /* Center the image */
+        width: 70%; /* Reduce width for mobile screens */
+        margin: 2rem auto; /* Center the image */
+        margin-left: 0rem;
     }
 
-    /* Adjust the project section */
-    .projects {
-        flex-direction: column;
-        margin: 3rem 2rem; /* Less margin on mobile */
-    }
-
-    .projects .projects-content h1 {
-        font-size: 3.5rem; /* Reduce project heading */
-    }
-
-    .projects .projects-content p {
-        font-size: 1.8rem;
-        margin-right: 0; /* Remove right margin for mobile */
-    }
-
-    .projects-vid video {
-        width: 90%; /* Make the video more narrow */
-        height: auto; /* Auto height to maintain aspect ratio */
-        margin-left: 0;
-        margin-right: 0;
-    }
-}
-
-/* For very small screens (500px and below) */
-@media (max-width: 500px) {
-    .home .home-content h1 {
-        font-size: 3.5rem;
-    }
-
-    .home .home-content p {
-        font-size: 1.6rem;
-        margin: 0 1rem; /* Add margin to prevent text touching the edges */
-    }
-
-    .home .home-img img {
-        width: 80%; /* Shrink image further */
-    }
-
-    /* Center-align the social icons */
+    /* Social icons should be centered as well */
     .social-icons {
         justify-content: center;
     }
 
-    /* Adjust the project section for very small screens */
-    .projects .projects-content h1 {
-        font-size: 3rem;
+    /* Projects section */
+    .projects {
+        flex-direction: column;
+        margin: 3rem auto; /* Center the projects section */
+        padding: 0 2rem; /* Add padding to prevent content touching screen edges */
+        width: 100%;
     }
 
-    .projects .projects-content p {
-        font-size: 1.6rem;
+    /* Adjust project content alignment */
+    .projects .projects-content {
+        text-align: center; /* Center text in project section */
+        margin: 0 auto;
+    }
+
+    /* Adjust the video alignment */
+    .projects-vid video {
+        margin: 1rem auto; /* Center the video */
+        display: block;
     }
 }
+
