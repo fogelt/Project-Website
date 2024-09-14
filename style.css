@@ -223,7 +223,6 @@ span{
 
     /* Adjust the image size */
     .home .home-img {
-        width: 50%; /* Reduce width to fit mobile screens */
         margin-top: 2rem; /* Reduce top margin */
         margin-left: 0; /* Center the image */
     }
