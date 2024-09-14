@@ -56,7 +56,7 @@ header{
 nav a{
     font-size: 1.8rem;
     color: white;
-    margin-left: 3rem;
+    margin-left: 2rem;
     font-weight: 500;
     transition: 0.3s ease;
     border-bottom: 3px solid transparent;
@@ -213,7 +213,6 @@ span{
         height: auto; /* Maintain aspect ratio */
         margin: 1rem auto; /* Center the image */
         margin-top: 10rem;
-        display: block; /* Ensure it's displayed as a block-level element */
     }
 
     .social-icons {
