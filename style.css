@@ -211,10 +211,9 @@ span{
     }
 
     .home .home-img {
-        width: 80%; /* Adjust image width for mobile screens */
+        width: 50%; /* Adjust image width for mobile screens */
         margin: 1.5rem auto; /* Center the image */
         margin-left: 0;
-        padding: 1 1rem;
     }
 
     .social-icons {
