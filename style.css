@@ -190,25 +190,93 @@ span{
     font-weight: 500;
 }
 
-@media(max-width: 1000px){
-    .home{
+/* For screens larger than 1000px */
+@media (max-width: 1000px) {
+    .home {
         gap: 4rem;
     }
 }
 
-@media(max-width: 700px){
-    .home{
+/* For screens smaller than 700px (Mobile-Friendly) */
+@media (max-width: 700px) {
+    /* Stack home section contents vertically */
+    .home {
         flex-direction: column;
-        margin: 5rem 4rem;
+        margin: 5rem 2rem; /* Reduce margin for smaller screens */
     }
-    .home .home-content h3{
+
+    /* Adjust text sizes for better readability */
+    .home .home-content h1 {
+        font-size: 4rem; /* Reduce font size */
+        line-height: 1.2;
+    }
+
+    .home .home-content h3 {
         font-size: 2.5rem;
     }
-    .home .home-content h1{
-        font-size: 5rem;
+
+    .home .home-content p {
+        font-size: 1.8rem; /* Smaller paragraph text */
+        margin-right: 0; /* Ensure no extra margin */
+        text-align: center; /* Center text for better look on small screens */
     }
-    .home .home-img{
-        width: 70vh;
-        margin-top: 5rem;
+
+    /* Adjust the image size */
+    .home .home-img {
+        width: 50%; /* Reduce width to fit mobile screens */
+        margin-top: 2rem; /* Reduce top margin */
+        margin-left: 0; /* Center the image */
+    }
+
+    /* Adjust the project section */
+    .projects {
+        flex-direction: column;
+        margin: 3rem 2rem; /* Less margin on mobile */
+    }
+
+    .projects .projects-content h1 {
+        font-size: 3.5rem; /* Reduce project heading */
+    }
+
+    .projects .projects-content p {
+        font-size: 1.8rem;
+        margin-right: 0; /* Remove right margin for mobile */
+    }
+
+    .projects-vid video {
+        width: 90%; /* Make the video more narrow */
+        height: auto; /* Auto height to maintain aspect ratio */
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+/* For very small screens (500px and below) */
+@media (max-width: 500px) {
+    .home .home-content h1 {
+        font-size: 3.5rem;
+    }
+
+    .home .home-content p {
+        font-size: 1.6rem;
+        margin: 0 1rem; /* Add margin to prevent text touching the edges */
+    }
+
+    .home .home-img img {
+        width: 80%; /* Shrink image further */
+    }
+
+    /* Center-align the social icons */
+    .social-icons {
+        justify-content: center;
+    }
+
+    /* Adjust the project section for very small screens */
+    .projects .projects-content h1 {
+        font-size: 3rem;
+    }
+
+    .projects .projects-content p {
+        font-size: 1.6rem;
     }
 }
