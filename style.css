@@ -209,7 +209,7 @@ span{
     }
 
     .home .home-img img{
-        width: 70%; /* Adjust video width */
+        width: 55%; /* Adjust video width */
         height: auto; /* Maintain aspect ratio */
         margin: 1rem auto; /* Center the video */
         margin-top: 10rem;
@@ -270,7 +270,7 @@ span{
     }
 
     .home .home-img {
-        width: 70%; /* Adjust image width for mobile screens */
+        width: 55%; /* Adjust image width for mobile screens */
         height: auto; /* Maintain aspect ratio */
         margin: 1rem auto; /* Center the image */
         display: block; /* Ensure it's displayed as a block-level element */
