@@ -145,15 +145,12 @@ span{
 
 .projects {
     display: flex;
-    flex-direction: column; /* Stack content vertically */
     justify-content: center;
-    align-items: center; /* Center align items horizontally */
+    align-items: center;
+    gap: 3rem;
     background-color: rgb(154, 164, 159);
-    min-height: 150vh; /* Ensure it covers enough height */
-    min-width: 150vh;
-    width: 100%; /* Ensure it covers the full width */
-    padding: 1rem; /* Add padding to ensure content is not touching edges */
-    box-sizing: border-box; /* Include padding in width */
+    min-height: 150vh;
+    padding-bottom: 50rem;
 }
 
 .projects-content h1{
@@ -211,10 +208,12 @@ span{
         width: 100%;
     }
 
-    .home .home-img {
-        width: 50%; /* Adjust image width for mobile screens */
-        margin: 1.5rem auto; /* Center the image */
-        margin-left: 0;
+    .home-img img{
+        width: 80%; /* Adjust image width for mobile screens */
+        height: auto; /* Maintain aspect ratio */
+        margin: 1rem auto; /* Center the image */
+        margin-top: 10rem;
+        display: block; /* Ensure it's displayed as a block-level element */
     }
 
     .social-icons {
@@ -226,6 +225,7 @@ span{
         padding: 20 20rem; /* Add padding */
         text-align: center; /* Center align text */
         padding-bottom: 10rem;
+        min-width: auto;
     }
 
     .projects .projects-content h1 {
