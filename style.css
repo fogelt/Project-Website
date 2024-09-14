@@ -209,8 +209,11 @@ span{
     }
 
     .home .home-img img{
-        margin: 1rem auto; /* Center the image */
+        width: 80%; /* Adjust video width */
+        height: auto; /* Maintain aspect ratio */
+        margin: 1rem auto; /* Center the video */
         margin-top: 10rem;
+        display: block; /* Ensure it's displayed as a block-level element */
     }
 
     .social-icons {
