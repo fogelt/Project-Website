@@ -268,9 +268,10 @@ span{
     }
 
     .home .home-img {
-        width: 80%; /* Adjust image width for mobile screens */
-        margin: 1.5rem auto; /* Center the image */
-        margin-left: 0;
+        width: 70%; /* Adjust image width for mobile screens */
+        height: auto; /* Maintain aspect ratio */
+        margin: 1rem auto; /* Center the image */
+        display: block; /* Ensure it's displayed as a block-level element */
     }
 
     .social-icons {
