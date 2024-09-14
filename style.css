@@ -145,12 +145,14 @@ span{
 
 .projects {
     display: flex;
+    flex-direction: column; /* Stack content vertically */
     justify-content: center;
-    align-items: center;
-    gap: 3rem;
+    align-items: center; /* Center align items horizontally */
     background-color: rgb(154, 164, 159);
-    min-height: 150vh;
-    padding-bottom: 50rem;
+    min-height: 150vh; /* Ensure it covers enough height */
+    width: 100%; /* Ensure it covers the full width */
+    padding: 1rem; /* Add padding to ensure content is not touching edges */
+    box-sizing: border-box; /* Include padding in width */
 }
 
 .projects-content h1{
@@ -193,8 +195,6 @@ span{
 @media (max-width: 768px) and (orientation: portrait) {
     .home {
         flex-direction: column; /* Stack elements vertically */
-        margin: 2rem; /* Margin for better spacing */
-        padding: 1 1rem; /* Add padding to prevent content from touching edges */
         text-align: center; /* Center align text */
     }
 
