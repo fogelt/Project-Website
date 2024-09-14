@@ -209,8 +209,6 @@ span{
     }
 
     .home-img img{
-        width: 80%; /* Adjust image width for mobile screens */
-        height: auto; /* Maintain aspect ratio */
         margin: 1rem auto; /* Center the image */
         margin-top: 10rem;
     }
@@ -242,6 +240,9 @@ span{
         height: auto; /* Maintain aspect ratio */
         margin: 1rem auto; /* Center the video */
         display: block; /* Ensure it's displayed as a block-level element */
+    }
+    nav a{
+        font-size: 1.3rem;
     }
 }
 
