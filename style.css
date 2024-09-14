@@ -270,7 +270,7 @@ span{
     }
 
     .home .home-img {
-        width: 65%; /* Adjust image width for mobile screens */
+        width: 70%; /* Adjust image width for mobile screens */
         height: auto; /* Maintain aspect ratio */
         margin: 1rem auto; /* Center the image */
         display: block; /* Ensure it's displayed as a block-level element */
