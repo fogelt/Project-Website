@@ -150,6 +150,7 @@ span{
     align-items: center; /* Center align items horizontally */
     background-color: rgb(154, 164, 159);
     min-height: 150vh; /* Ensure it covers enough height */
+    min-width: 150vh;
     width: 100%; /* Ensure it covers the full width */
     padding: 1rem; /* Add padding to ensure content is not touching edges */
     box-sizing: border-box; /* Include padding in width */
